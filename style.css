@@ -79,21 +79,21 @@ text-align: left;
 }
 }
 /******************************************************************/
-@media screen and (min-width: 768px) {  //Display Blog pages with thumnail size images.
+@media screen and (min-width: 768px) {
 .post-wrapper {
   display: flex;
 }
 
 .post-wrapper .image-holder{
-      flex: 0 0 300px;
-      height: 250px;
+      flex: 0 0 270px;
+      height: 165px;
 }
 .post-wrapper .text-holder{
       margin-left: 3em;
+      overflow: hidden;
 }
 
 }
-
 /*******************************************************************/
 
 #post-title {
