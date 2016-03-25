@@ -1,0 +1,89 @@
+/*
+Theme Name:   modality Child
+Theme URI:    http://factr.org/modality-child/
+Description:  modality child theme
+Author:       Pranali Patil
+Template:     modality
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  modality-child
+*/
+
+/* /* Edited by PRANALI PATIL : Header Customization. */
+#logo a img {/* PRANALI PATIL : *Reduce the Size of FACTR LOGO to fixed 62px and align it with Menu.*/
+  	width: 62px !important;
+    	margin: 0 1em;
+	text-align: left;
+	vertical-align: initial;
+}
+
+#header-holder {
+	padding: 0; /* PRANALI PATIL : Reduce the Size of Main Header height.*/
+}
+
+@media screen and (max-width: 768px) {
+
+#logo{
+width: 70% !important;
+text-align: left;
+}
+
+}
+/* Edited by PRANALI PATIL : Make Menu Item for Donation Page notable */
+#menu-item-711 {
+    background-color: #249ee5;
+    border-radius: 8px;
+    transition: all 0.5s;
+        margin-top: 2.5px;
+
+}
+
+
+#menu-item-711 a{
+    padding: 10px 25px;
+  line-height: 2.1;
+
+}
+  #menu-item-711 a:hover {
+    background: white;
+    color: black;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+    }
+
+/* Edited by PRANALI PATIL : Slider Customization */
+
+.banner ul li{
+  background-attachment: fixed !important;/* PRANALI PATIL : TO make Slider Image fixed instead of default scroll. Important rule overrides the inline default styling*/
+  background-size: cover !important;
+  }
+
+.banner .btn{
+  background-color: rgba(64, 1, 36, 0.42);
+  color:#ffffff !important;  /* Why does customize.php styles take precedence over my style here?*/
+ }
+.banner .inner{
+  background-color: RGBA(125, 103, 149, 0.45);
+  padding-top: 0 !important;
+  margin-top: 6em;
+}
+.banner .inner a h1 {
+    text-transform: none;
+}
+
+@media screen and (max-width: 550px){
+.banner .btn{
+  display: inline-block !important;
+}
+}
+/******************************************************************/
+
+/*******************************************************************/
+
+#post-title {
+    text-transform: none;  /* Required for few post titles to display correctly. */
+}
+
+/******************************************************************/
